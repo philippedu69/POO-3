@@ -1,0 +1,34 @@
+<?php
+require_once 'vehicle.php';
+require_once 'bicycle.php';
+require_once 'car.php';
+require_once 'skate.php';
+require_once 'truck.php';
+require_once 'HighWay.php';
+require_once 'ResidentialWAy.php';
+require_once 'MotorWay.php';
+require_once 'PedestrianWay.php';
+
+$bike = new Bicycle('white', 1);
+$skate = new Skate('red', 1);
+$opel = new Car('white', 5, 'fuel');
+$honda = new Car('black', 2, 'fuel');
+
+$pedestrianWay = new PedestrianWay();
+$motorWay = new MotorWay();
+$residentialWay = new ResidentialWay();
+
+$motorWay->addVehicle($honda);
+$pedestrianWay->addVehicle($opel);
+$pedestrianWay-> addVehicle($bike);
+$residentialWay->addVehicle($skate);
+$residentialWay->addVehicle($opel);
+var_dump($motorWay);
+var_dump($pedestrianWay);
+var_dump($residentialWay);
+
+
+
+
+
+

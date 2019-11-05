@@ -24,7 +24,9 @@
     <fileColor scope="Project Files" color="Orange" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1Sdo40ddxegsTPfUu8VsG34g8md" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -69,7 +71,7 @@
       <workItem from="1572430248660" duration="325000" />
       <workItem from="1572872944320" duration="2145000" />
       <workItem from="1572886635251" duration="267000" />
-      <workItem from="1572940580146" duration="4129000" />
+      <workItem from="1572940580146" duration="4443000" />
     </task>
     <servers />
   </component>

@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d92c4908-180d-4f35-8484-38a1011f1e1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bicycle.php" beforeDir="false" afterPath="$PROJECT_DIR$/bicycle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car.php" beforeDir="false" afterPath="$PROJECT_DIR$/car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bicycle.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../car.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../index.php" beforeDir="false" />
@@ -24,7 +29,7 @@
     <fileColor scope="Project Files" color="Orange" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="RECENT_COMMON_BRANCH" value="poo3" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -71,7 +76,8 @@
       <workItem from="1572430248660" duration="325000" />
       <workItem from="1572872944320" duration="2145000" />
       <workItem from="1572886635251" duration="267000" />
-      <workItem from="1572940580146" duration="4443000" />
+      <workItem from="1572940580146" duration="6098000" />
+      <workItem from="1572962760288" duration="3264000" />
     </task>
     <servers />
   </component>

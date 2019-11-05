@@ -2,7 +2,7 @@
 
 require_once 'vehicle.php';
 
-class Car extends Vehicle
+class Car extends Vehicle implements LightableInterface
 {
     /**
      * @var string
@@ -13,6 +13,14 @@ class Car extends Vehicle
      * @var int
      */
     private $_energyLevel;
+    /**
+     * @var bool
+     */
+    private $on = true;
+    /**
+     * @var bool
+     */
+    private $off = false;
 
     const ALLOWED_ENERGIES = [
         'fuel',
@@ -50,5 +58,16 @@ class Car extends Vehicle
     public function changeWheel($nbWheels)
     {
         echo "utiliser un cric";
+    }
+
+    public function switchOn()
+
+    {
+        return $this->on;
+        // TODO: Implement switchOn() method.
+    }
+    public function switchOff()
+    {
+        return $this->off;
     }
 }

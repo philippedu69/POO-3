@@ -8,6 +8,7 @@ require_once 'HighWay.php';
 require_once 'ResidentialWAy.php';
 require_once 'MotorWay.php';
 require_once 'PedestrianWay.php';
+require_once 'LightableInterface.php';
 
 $bike = new Bicycle('white', 1);
 $skate = new Skate('red', 1);
@@ -23,9 +24,16 @@ $pedestrianWay->addVehicle($opel);
 $pedestrianWay-> addVehicle($bike);
 $residentialWay->addVehicle($skate);
 $residentialWay->addVehicle($opel);
-var_dump($motorWay);
-var_dump($pedestrianWay);
-var_dump($residentialWay);
+
+echo $honda->switchOn();
+echo $bike->switchOn();
+echo $bike->forward(15);
+echo $bike->switchOn();
+echo $honda->switchOff();
+echo $bike->switchOff();
+var_dump($honda);
+var_dump($bike);
+
 
 
 
